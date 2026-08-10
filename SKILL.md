@@ -1,4 +1,4 @@
-# Global IDE Rules
+# Genesis — Agent Context & Learning Protocol
 
 ## Primary Goal
 
