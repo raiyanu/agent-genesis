@@ -14,12 +14,12 @@ It also improves **agent / AI workflow speed by ~80%** by removing repeated disc
 
 ### ⚠️ Important Usage Instruction
 
-> The file `genesis.md` is the **entry point for all AI agents**.
+> The file `SKILL.md` is the **entry point for all AI agents**.
 
 You must:
 
-* Copy `genesis.md` into your agent’s rule/config system **OR**
-* Configure your agent to **always read ****`genesis.md`**** first before any task**
+* Copy `SKILL.md` into your agent’s rule/config system **OR**
+* Configure your agent to **always read ****`SKILL.md`**** first before any task**
 
 Without this step, Genesis will not function as intended.
 
@@ -57,7 +57,7 @@ Remember
 
 ```text
 .agents/
-├── genesis.md          # Agent rules & workflow (must be loaded first)
+├── SKILL.md          # Agent rules & workflow (must be loaded first)
 └── agent_md/           # Persistent project knowledge
     ├── project-learn.md
     ├── user-learn.md
