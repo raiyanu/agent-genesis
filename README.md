@@ -12,6 +12,19 @@ It also improves **agent / AI workflow speed by ~80%** by removing repeated disc
 
 ---
 
+### ⚠️ Important Usage Instruction
+
+> The file `genesis.md` is the **entry point for all AI agents**.
+
+You must:
+
+* Copy `genesis.md` into your agent’s rule/config system **OR**
+* Configure your agent to **always read ****`genesis.md`**** first before any task**
+
+Without this step, Genesis will not function as intended.
+
+---
+
 ### Works with
 
 * CLI Agents
@@ -44,7 +57,7 @@ Remember
 
 ```text
 .agents/
-├── genesis.md          # Agent rules & workflow
+├── genesis.md          # Agent rules & workflow (must be loaded first)
 └── agent_md/           # Persistent project knowledge
     ├── project-learn.md
     ├── user-learn.md
@@ -69,5 +82,3 @@ It also ensures that knowledge can be **shared seamlessly across different devel
 ### Goal
 
 **Every agent session should start smarter than the previous one — no matter who is working on the project or where they are working from.**
-
-If you want next step, I can also make a **very short GitHub tagline + badge section** for the repo (looks very professional on landing page).
