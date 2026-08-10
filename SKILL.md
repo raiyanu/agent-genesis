@@ -1,3 +1,8 @@
+---
+name: agent-genesis
+description: Generate production-ready AI agent projects with a structured architecture, reusable skills, tools, workflows, and configuration.
+---
+
 # Genesis — Agent Context & Learning Protocol
 
 ## Primary Goal
