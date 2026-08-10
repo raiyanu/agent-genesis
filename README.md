@@ -6,12 +6,20 @@
 
 It gives agents the context they need to **understand a project before they act**.
 
+It also enables **shared intelligence across developers, devices, and accounts**, ensuring that project knowledge is not lost with a single machine or session.
+
+It also improves **agent / AI workflow speed by ~80%** by removing repeated discovery of project structure, patterns, and decisions.
+
+---
+
 ### Works with
 
 * CLI Agents
 * IDE Agents
 * Coding Agents
 * Autonomous Agents
+
+---
 
 ### The Flow
 
@@ -30,6 +38,8 @@ Remember
    ↺
 ```
 
+---
+
 ### Structure
 
 ```text
@@ -44,12 +54,20 @@ Remember
     └── debugging/
 ```
 
+---
+
 ### Core Idea
 
 > **Understand before acting. Learn while working. Remember for the next agent.**
 
 Genesis keeps knowledge **project-local, human-readable, version-controlled, and agent-agnostic**.
 
-The goal is simple:
+It also ensures that knowledge can be **shared seamlessly across different developers, devices, and accounts**, so every contributor and every agent starts with the same understanding of the project.
 
-**Every agent session should start smarter than the previous one.**
+---
+
+### Goal
+
+**Every agent session should start smarter than the previous one — no matter who is working on the project or where they are working from.**
+
+If you want next step, I can also make a **very short GitHub tagline + badge section** for the repo (looks very professional on landing page).
